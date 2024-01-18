@@ -18,6 +18,8 @@ import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } fro
 import UserBanner from './components/UserBanner'
 import Chatbot from './Chatbot'
 import MultipleBanner from './components/Banners/MultipleBanner'
+import Trading from './Trading'
+import CryptoTable from './CryptoTable'
 
 const StyledHeroSection = styled(PageSection)`
   padding-top: 16px;
@@ -43,7 +45,18 @@ const UserBannerWrapper = styled(Container)`
   }
 `
 
+
+
+
+
+
 const Home: React.FC<React.PropsWithChildren> = () => {
+
+
+
+
+
+
   const { theme } = useTheme()
   const { address: account } = useAccount()
   const { chainId } = useActiveChainId()
@@ -148,6 +161,24 @@ const Home: React.FC<React.PropsWithChildren> = () => {
       >
         <WinSection />
       </PageSection>
+
+
+      <PageSection
+        innerProps={{ style: { margin: '0', width: '100%' } }}
+        containerProps={{
+          id: 'home-2',
+        }}
+        index={2}
+        hasCurvedDivider={false}
+      >
+       
+        <CryptoTable  />
+     
+      </PageSection>
+
+
+
+
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}
@@ -158,6 +189,9 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         <CakeDataRow />
         <Chatbot/>
       </PageSection>
+
+
+
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"

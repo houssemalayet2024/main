@@ -144,7 +144,7 @@ export default function SwapModalFooter({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/stableswap#stableswap-fees"
+                      href="#"
                     >
                       {t('here.')}
                     </Link>

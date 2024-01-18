@@ -60,7 +60,7 @@ const config: (
           label: t('Liquidity'),
           href: '/liquidity',
         },
-        {
+      /*   {
           label: t('Perpetual'),
           href: getPerpetualUrl({
             chainId,
@@ -74,7 +74,7 @@ const config: (
           label: t('Bridge'),
           href: 'https://bridge.pancakeswap.finance/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
+        }, */
         {
           label: `${t('Limit')} (V2)`,
           href: '/limit-orders',
@@ -145,7 +145,7 @@ const config: (
       
       ],
     },
-    {
+    /* {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
       icon: NftIcon,
@@ -166,8 +166,8 @@ const config: (
           href: `${nftsBaseUrl}/activity`,
         },
       ],
-    },
-    {
+    }, */
+  /*   {
       label: t('Game'),
       icon: PancakeProtectorIcon,
       hideSubNav: true,
@@ -179,7 +179,7 @@ const config: (
           status: { text: t('New'), color: 'success' },
         },
       ],
-    },
+    }, */
     {
       label: '',
       href: '/info',

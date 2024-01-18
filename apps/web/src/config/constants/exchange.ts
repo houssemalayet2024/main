@@ -123,6 +123,6 @@ export const DEFAULT_OUTPUT_CURRENCY = '0x299F467665e1870A705099AA5a0F11520df026
 export const GELATO_HANDLER = 'pancakeswap'
 export const GENERIC_GAS_LIMIT_ORDER_EXECUTION = 500000n
 
-export const LIMIT_ORDERS_DOCS_URL = 'https://docs.pancakeswap.finance/products/pancakeswap-exchange/limit-orders'
+export const LIMIT_ORDERS_DOCS_URL = '#'
 
 export const EXCHANGE_PAGE_PATHS = ['/swap', '/limit-orders', 'liquidity', '/add', '/find', '/remove']

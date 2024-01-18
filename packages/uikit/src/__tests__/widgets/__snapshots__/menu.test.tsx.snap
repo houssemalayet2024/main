@@ -2872,7 +2872,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/contact-us"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2887,7 +2887,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://blog.pancakeswap.finance/"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2902,7 +2902,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/contact-us/telegram"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2917,7 +2917,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/tokenomics/cake"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2965,7 +2965,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="Support https://docs.pancakeswap.finance/contact-us/customer-support"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2980,7 +2980,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/help/troubleshooting"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -2995,7 +2995,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/get-started"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -3049,7 +3049,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -3064,7 +3064,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -3079,7 +3079,7 @@ exports[`renders correctly 1`] = `
               color="text"
               data-theme="dark"
               font-size="16px"
-              href="https://docs.pancakeswap.finance/hiring/become-a-chef"
+              href="#"
               rel="noreferrer noopener"
               target="_blank"
             >
